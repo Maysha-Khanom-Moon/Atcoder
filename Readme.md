@@ -68,3 +68,7 @@ init - create existing folder to a new git repo
 
 # Pull Request
 => It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+
+# Notes
+[link](https://www.apnacollege.in/notes)
