@@ -84,5 +84,9 @@ init - create existing folder to a new git repo
     => git reset HEAD~1
 
 <h2>Case 3: commited changes (for many commits) </h2>
-    => git reset <-commit hash->
-    => git reset --hard <-commit hash->
+    => git reset <-commit hash-> (change hash exist)
+    => git reset --hard <-commit hash-> (all hash change delete)
+
+
+# Fork
+=> create a rough copy at own account
