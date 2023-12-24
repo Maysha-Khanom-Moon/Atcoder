@@ -72,3 +72,17 @@ init - create existing folder to a new git repo
 
 # Notes
 [link](https://www.apnacollege.in/notes)
+
+
+# Undoing Changes
+<h2>Case 1: staged changes</h2>
+    => git reset <-file name-> (for one file)
+    => git reset (for all file)
+
+
+<h2>Case 2: commited changes (for one commit)</h2>
+    => git reset HEAD~1
+
+<h2>Case 3: commited changes (for many commits) </h2>
+    => git reset <-commit hash->
+    => git reset --hard <-commit hash->
