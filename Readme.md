@@ -20,5 +20,22 @@ Maysha-Khanom-Moon
 11. git add filename
 12. git add .
 13. git status
-14. git commit -m 'msg'
+14. git commit -m "msg"
 15. git push origin main
+<br>
+push - upload local repo content to remote repo
+<br>
+
+### mkdir
+mkdir dirName
+
+### init Command
+init - used to create a new git repo
+<br>
+
+1. git init
+2. git remote add origin <-link->
+3. git remote -v (to verify remote)
+4. git branch (to check branch)
+5. git branch -M main (to rename branch)
+6. git push origin main
