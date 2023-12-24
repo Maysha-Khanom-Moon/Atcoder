@@ -37,5 +37,34 @@ init - create existing folder to a new git repo
 2. git remote add origin <-link->
 3. git remote -v (to verify remote)
 4. git branch (to check branch)
-5. git branch -M main (to rename branch)
+5. git branch -M main (to rename branch 'main')
 6. git push origin main
+
+7. git push -u origin main
+=> future a bar bar origin main jeno na likha lage, tai -u. Next time just git push likhlei hobe.
+
+
+# work flow
+=> GitHub repo --> clone --> change --> add --> commit --> push
+
+## Git Branches
+1. git branch (to check branch)
+2. git branch -M main (to rename branch)
+3. git checkout <-branch name-> (to navigate)
+4. git checkout -b <-new branch name-> (to create new branch)
+5. git branch -d <-branch name-> (to delete branch)
+
+==> j branch er moddhe thakbo, oita delete korte parbo nah.
+
+# Merging Code
+
+1. Way 1:
+    => git diff <-branch name-> (to compare commits, branches, files & more)
+    => git merge <-branch name-> (to merge 2 branches)
+
+2. Way 2:
+    => Create a PR
+
+
+# Pull Request
+=> It lets you tell others about changes you've pushed to a branch in a repository on GitHub.
