@@ -30,7 +30,7 @@ push - upload local repo content to remote repo
 mkdir dirName
 
 ### init Command
-init - used to create a new git repo
+init - create existing folder to a new git repo
 <br>
 
 1. git init
